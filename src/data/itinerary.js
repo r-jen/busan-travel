@@ -1,13 +1,21 @@
 export const itinerary = [
   {
     day: 1,
+    date: '2026-09-03',
+    hotel: 'Stanford Inn Busan',
     title: '抵達釜山 · 海雲台',
     theme: '海灘初體驗',
     spots: [
       {
-        time: '13:00',
-        name: '金海國際機場',
-        desc: '搭乘機場快線（輕軌）前往市區，約 30 分鐘到達沙上站',
+        time: '14:45',
+        name: '✈️ 起飛 — 桃園國際機場 第一航廈',
+        desc: '2026-09-03 (四)｜抵達時間 17:55，降落金海國際機場 國際航廈',
+        maps: 'https://maps.google.com/?q=Taiwan+Taoyuan+International+Airport',
+      },
+      {
+        time: '18:30',
+        name: '金海國際機場 → 市區',
+        desc: '搭乘機場快線（輕軌）至沙上站換2號線，約 30 分鐘抵達海雲台',
         maps: 'https://maps.google.com/?q=Gimhae+International+Airport',
       },
       {
@@ -32,6 +40,8 @@ export const itinerary = [
   },
   {
     day: 2,
+    date: '2026-09-04',
+    hotel: 'Stanford Inn Busan',
     title: '甘川洞 · 松島海上纜車',
     theme: '文青藝術風',
     spots: [
@@ -63,6 +73,8 @@ export const itinerary = [
   },
   {
     day: 3,
+    date: '2026-09-05',
+    hotel: 'Stanford Inn Busan',
     title: '釜山塔 · 國際市場 · 廣安里',
     theme: '市區探索',
     spots: [
@@ -94,6 +106,8 @@ export const itinerary = [
   },
   {
     day: 4,
+    date: '2026-09-06',
+    hotel: 'Stanford Inn Busan',
     title: '梵魚寺 · 東萊溫泉',
     theme: '文化放鬆日',
     spots: [
@@ -125,6 +139,8 @@ export const itinerary = [
   },
   {
     day: 5,
+    date: '2026-09-07',
+    hotel: null,
     title: '機張螃蟹 · 返程',
     theme: '美食收尾',
     spots: [
@@ -147,9 +163,15 @@ export const itinerary = [
         maps: 'https://maps.google.com/?q=Shinsegae+Centum+City+Busan',
       },
       {
-        time: '17:00',
-        name: '金海國際機場',
+        time: '10:30',
+        name: '前往金海國際機場',
         desc: '搭乘機場快線返回機場，提前 2 小時辦理登機手續',
+        maps: 'https://maps.google.com/?q=Gimhae+International+Airport',
+      },
+      {
+        time: '12:30',
+        name: '✈️ 起飛 — 釜山金海機場 國際航廈',
+        desc: '2026-09-07 (一)｜抵達時間 13:45，降落桃園國際機場 第一航廈',
         maps: 'https://maps.google.com/?q=Gimhae+International+Airport',
       },
     ],

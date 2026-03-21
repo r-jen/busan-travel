@@ -2,10 +2,11 @@
   <div class="bg-white rounded-2xl shadow-md overflow-hidden">
     <div class="bg-busan-blue text-white px-6 py-4 flex items-center justify-between">
       <div>
-        <span class="text-sm opacity-75">Day {{ day.day }}</span>
+        <span class="text-sm opacity-75">Day {{ day.day }}{{ day.date ? `　${day.date}` : '' }}</span>
         <h2 class="text-xl font-bold">{{ day.title }}</h2>
+        <div v-if="day.hotel" class="text-xs mt-1 opacity-75">🏨 {{ day.hotel }}</div>
       </div>
-      <span class="text-sm bg-busan-coral px-3 py-1 rounded-full">{{ day.theme }}</span>
+      <span class="text-sm bg-busan-coral px-3 py-1 rounded-full shrink-0 ml-3">{{ day.theme }}</span>
     </div>
     <ul class="divide-y divide-gray-100">
       <li
