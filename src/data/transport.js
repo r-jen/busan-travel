@@ -1,11 +1,24 @@
 export const arrival = [
   {
-    title: '✈️ 台灣 → 釜山 航班',
+    title: '✈️ 去程：台灣 → 釜山',
     items: [
-      { label: '出發機場', value: '桃園國際機場（TPE）或松山機場（TSA）' },
-      { label: '航空公司', value: '長榮、中華航空、釜山航空、濟州航空' },
-      { label: '飛行時間', value: '約 2.5–3 小時' },
-      { label: '抵達機場', value: '金海國際機場（PUS）' },
+      { label: '日期', value: '2026-09-03 (四)' },
+      { label: '出發機場', value: '桃園國際機場（TPE）第一航廈' },
+      { label: '起飛時間', value: '14:45' },
+      { label: '抵達機場', value: '金海國際機場（PUS）國際航廈' },
+      { label: '抵達時間', value: '17:55' },
+      { label: '飛行時間', value: '約 2.5 小時' },
+    ],
+  },
+  {
+    title: '✈️ 回程：釜山 → 台灣',
+    items: [
+      { label: '日期', value: '2026-09-07 (一)' },
+      { label: '出發機場', value: '金海國際機場（PUS）國際航廈' },
+      { label: '起飛時間', value: '12:30' },
+      { label: '抵達機場', value: '桃園國際機場（TPE）第一航廈' },
+      { label: '抵達時間', value: '13:45' },
+      { label: '飛行時間', value: '約 1.5 小時' },
     ],
   },
   {
