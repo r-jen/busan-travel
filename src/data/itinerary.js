@@ -16,7 +16,7 @@ export const itinerary = [
         time: '18:30',
         name: '金海機場 → Stanford Inn Busan',
         desc: '搭機場快線（輕軌）至沙上站換2號線至海雲台，約 40 分鐘｜辦理入住',
-        maps: 'https://maps.google.com/?q=Gimhae+International+Airport',
+        maps: 'https://maps.app.goo.gl/SYfu4B56jVGUy78G8',
       },
       {
         time: '20:00',
