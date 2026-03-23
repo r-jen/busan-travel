@@ -42,6 +42,16 @@ export const foods = [
   {
     id: 5,
     category: '燒肉',
+    name: '明星一隻雞',
+    nameKo: '명성닭한마리',
+    area: '西面',
+    recommend: '一隻雞鍋、手工刀削麵',
+    desc: '釜山知名一隻雞老店，整隻雞在清爽雞湯中燉煮，附上刀削麵和年糕，最後加入麵條收尾，暖胃十足',
+    price: '₩18,000–25,000／人',
+  },
+  {
+    id: 6,
+    category: '燒肉',
     name: '水營烤肉街',
     nameKo: '수영 삼겹살',
     area: '水營區',
@@ -50,7 +60,7 @@ export const foods = [
     price: '₩15,000–25,000／人',
   },
   {
-    id: 6,
+    id: 7,
     category: '街頭小吃',
     name: '魚糕串',
     nameKo: '어묵',
@@ -60,7 +70,7 @@ export const foods = [
     price: '₩500–1,000／串',
   },
   {
-    id: 7,
+    id: 8,
     category: '街頭小吃',
     name: '辣炒年糕',
     nameKo: '떡볶이',
@@ -70,7 +80,7 @@ export const foods = [
     price: '₩3,000–5,000',
   },
   {
-    id: 8,
+    id: 9,
     category: '街頭小吃',
     name: '海雲台市場生魚片',
     nameKo: '해운대 회',
@@ -80,7 +90,47 @@ export const foods = [
     price: '₩10,000–20,000',
   },
   {
-    id: 9,
+    id: 10,
+    category: '街頭小吃',
+    name: '元祖黑糖餅',
+    nameKo: '씨앗호떡',
+    area: 'BIFF廣場',
+    recommend: '黑糖籽煎餅',
+    desc: 'BIFF廣場必吃的釜山代表性街頭小吃，餅皮酥脆內餡是黑糖混合葵花籽，香甜不膩，排隊人潮絡繹不絕',
+    price: '₩1,500–2,000／個',
+  },
+  {
+    id: 11,
+    category: '街頭小吃',
+    name: '60雞',
+    nameKo: '60계치킨',
+    area: '全市均有',
+    recommend: '原味炸雞、蜂蜜奶油炸雞',
+    desc: '韓國人氣炸雞連鎖，以新鮮現炸著稱，外皮酥脆多汁，搭配特製醬料風味十足',
+    price: '₩18,000–25,000／份',
+  },
+  {
+    id: 12,
+    category: '早餐',
+    name: 'Egg Drop',
+    nameKo: '에그드랍',
+    area: '全市均有',
+    recommend: '經典蛋捲三明治、起司蛋捲',
+    desc: '韓國人氣早餐連鎖，現做厚蛋捲夾入吐司，口感蓬鬆軟嫩，是釜山年輕人最愛的早午餐選擇',
+    price: '₩5,000–8,000',
+  },
+  {
+    id: 13,
+    category: '咖啡店',
+    name: 'Having Moment',
+    nameKo: '해빙모먼트',
+    area: '海雲台・廣安里',
+    recommend: '拿鐵、季節限定飲品',
+    desc: '釜山質感咖啡廳，空間設計舒適療癒，適合旅途中放慢腳步小憩，飲品精緻細膩',
+    price: '₩6,000–10,000',
+  },
+  {
+    id: 14,
     category: '甜點',
     name: '釜山糕餅店',
     nameKo: '釜山 빵집',
@@ -90,7 +140,7 @@ export const foods = [
     price: '₩2,000–8,000',
   },
   {
-    id: 10,
+    id: 15,
     category: '甜點',
     name: '草莓 Bingsu',
     nameKo: '딸기 빙수',
@@ -101,4 +151,4 @@ export const foods = [
   },
 ]
 
-export const categories = ['全部', '海鮮', '燒肉', '街頭小吃', '甜點']
+export const categories = ['全部', '海鮮', '燒肉', '街頭小吃', '早餐', '咖啡店', '甜點']

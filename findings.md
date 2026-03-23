@@ -166,3 +166,9 @@
 - [釜山西面美食｜松亭三代豬肉湯飯 송정3대국밥！傳承近八十年的美味！ — 痞客邦](https://rowing2005.pixnet.net/blog/posts/9577433816)
 - [[釜山西面美食] 松亭三代豬肉湯飯 @ 豬肉飯湯一條街人氣老店 — 樂活的大方](https://www.bigfang.tw/blog/post/songjeong-samdae-gukbap-busan)
 - [【2025釜山自由行】10間人氣釜山豬肉湯飯推薦 — Funliday](https://www.funliday.com/posts/busan-dwaeji-gukbap-top10/)
+
+
+### youtube 資料
+- [2025釜山5天4夜自由行｜一人不到3萬台幣｜14個免費景點+12間道地美食｜竟然省下16萬韓幣💸｜免費五星級汗蒸幕｜私房海景咖啡廳｜張嘴嘴](https://www.youtube.com/watch?v=fxmr-TQuYUU)
+- [釜山旅遊避雷💣那些我會刪掉的景點➕遺憾名單😭改成這樣會更好✅自由行行程規劃必看👀省時間少踩雷⚡早知道就不換宿｜6Journal](https://www.youtube.com/watch?v=clXAbwt34Rw)
+- [這裡才是「真正的釜山」！比海雲台更值得去？影島絕美海景咖啡廳，甜點竟也零踩雷！開箱2025南浦洞新開飯店！千元入住還有陽台！釜山Vlog🇰🇷｜波妞食境秀](https://www.youtube.com/watch?v=t_0dmbZhqG0)
