@@ -25,5 +25,6 @@ const links = [
   { to: '/itinerary', label: '📅 行程' },
   { to: '/food', label: '🍜 美食' },
   { to: '/transport', label: '🚇 交通' },
+  { to: '/korean', label: '🗣️ 韓語' },
 ]
 </script>

@@ -6,6 +6,7 @@ const routes = [
   { path: '/itinerary', name: 'itinerary', component: () => import('../views/ItineraryView.vue') },
   { path: '/food', name: 'food', component: () => import('../views/FoodView.vue') },
   { path: '/transport', name: 'transport', component: () => import('../views/TransportView.vue') },
+  { path: '/korean', name: 'korean', component: () => import('../views/KoreanView.vue') },
 ]
 
 export default createRouter({
