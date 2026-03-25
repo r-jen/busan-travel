@@ -85,3 +85,5 @@
 - [x] itinerary.js Day 4：更新樂天世界 note，加入「🚨 Pass 到期 10:30，務必 10:00 開門刷票」警示
 - [x] itinerary.js Day 5：移除機張市場 + 尾浦港，改為 10:00 飯店出發搭地鐵前往機場，含地鐵路線說明
 - [x] 使用者更新 Day 5 title 為「返程」、theme 為「睡到自然醒收尾」
+- [x] itinerary.js Day 2 Spa Land 晚餐：改為館內三區美食說明，補充消費滿 ₩10,000 加贈 2 小時
+- [x] findings.md：步調檢查、地理動線、體力評估更新為 v2 版本（表格格式）
