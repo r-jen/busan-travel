@@ -62,61 +62,139 @@ export const itinerary = [
     day: 2,
     date: '2026-09-04',
     hotel: 'Stanford Inn Busan',
-    title: '甘川洞 · 南浦洞 · 廣安里',
-    theme: '文青藝術風',
+    title: '松島纜車 · Spa Land',
+    theme: '海景 + 汗蒸幕',
     spots: [
       {
-        time: '09:30',
-        name: '甘川洞文化村',
-        desc: '彩色小屋沿山而建，有「韓國馬丘比丘」之稱，巷弄間充滿藝術裝置',
-        maps: 'https://maps.google.com/?q=Gamcheon+Culture+Village',
+        time: '10:30',
+        name: '松島海上纜車',
+        desc: '韓國最長海上纜車（1.62 公里），透明地板纜車車廂俯瞰松島海岸絕景',
+        maps: 'https://maps.google.com/?q=Songdo+Cable+Car+Busan',
         detail: {
-          note: '建議 09:30–10:00 抵達，人潮最少；下午 15:00 後人多，避開週末。',
+          note: '持釜山 Pass（48H）可免費搭水晶車廂來回（原價 ₩22,000）。Klook / KKday 線上預購亦可；持 Visit Busan Pass 同樣免費。',
           options: [
             {
-              title: '入場資訊',
+              title: '🎫 票價（參考）',
               steps: [
-                '社區全日免費開放（24 小時）',
-                '集章地圖 ₩2,000（中英日文版，在旅遊中心購買）',
-                '店家通常 09:00–18:00',
+                '一般車廂：單程 ₩12,000 / 來回 ₩15,000',
+                '水晶（玻璃地板）車廂：單程 ₩16,000 / 來回 ₩22,000',
+                '釜山 Pass 持有者：水晶車廂免費來回',
               ],
-              cost: '免費入場，地圖 ₩2,000',
-            },
-            {
-              title: '🚇 交通方式',
-              steps: [
-                '地鐵 1 號線扎嘎其站（111）6 號出口',
-                '轉乘 1-1 號或 2 號公車，至「甘川文化村」站下車',
-                '從 Stanford Inn 步行至扎嘎其站約 5 分鐘',
-              ],
-              time: '約 20 分鐘',
-              cost: '₩1,500（公車）',
+              cost: 'Pass 持有者免費（原價 ₩22,000）',
             },
           ],
         },
       },
       {
         time: '12:00',
-        name: '南浦洞 BIFF 廣場',
-        desc: '釜山國際影展聖地，附近小吃攤、餐廳雲集，適合午餐覓食',
-        maps: 'https://maps.google.com/?q=BIFF+Square+Busan',
+        name: '松島周邊探索',
+        desc: '纜車後步行探索松島周邊：龍宮雲橋（₩1,000）、岩南公園森林步道、白淺灘文化村、海水浴場沙灘',
+        maps: 'https://maps.google.com/?q=Yonggu+Bridge+Songdo+Busan',
       },
       {
-        time: '14:00',
-        name: '國際市場 → 扎嘎其市場',
-        desc: '歷史市場逛街後，前往釜山最大水產市場，可自選活魚上樓料理',
-        maps: 'https://maps.google.com/?q=Gukje+Market+Busan',
-      },
-      {
-        time: '17:00',
-        name: '廣安里海水浴場',
-        desc: '欣賞夕陽映照廣安大橋的絕景，沿岸咖啡廳適合休憩',
-        maps: 'https://maps.google.com/?q=Gwangalli+Beach+Busan',
+        time: '16:00',
+        name: 'Spa Land Centum City 汗蒸幕',
+        desc: '新世界百貨頂樓溫泉 SPA，多種主題浴池 + 汗蒸幕，約 4 小時放鬆',
+        maps: 'https://maps.google.com/?q=Spa+Land+Centum+City+Busan',
         detail: {
-          note: '夕陽約 18:30–19:00，提前佔好海景位是關鍵。以下咖啡廳皆有廣安大橋窗景。',
+          note: '持釜山 Pass（48H）免費入場（原價 ₩25,000）。建議預留 4 小時，含換衣、泡湯、汗蒸幕。毛巾與汗蒸幕服裝費另計。',
           options: [
             {
-              title: '☕ 推薦海景咖啡廳',
+              title: '🛁 基本資訊',
+              steps: [
+                '地鐵 2 號線 Centum City 站直結新世界百貨',
+                '營業時間：06:00–24:00',
+                '含多種主題溫泉池、汗蒸幕、休息區',
+                '約 20:00 結束，離開前可在百貨美食街用晚餐',
+              ],
+              cost: 'Pass 持有者免費（原價 ₩25,000）',
+            },
+          ],
+        },
+      },
+      {
+        time: '21:00',
+        name: 'Centum City 晚餐',
+        desc: '新世界百貨美食街或周邊餐廳，結束 Spa 後補充體力',
+        maps: 'https://maps.google.com/?q=Shinsegae+Centum+City+Busan',
+      },
+    ],
+  },
+  {
+    day: 3,
+    date: '2026-09-05',
+    hotel: 'Stanford Inn Busan',
+    title: '海雲台體驗 · 廣安里無人機秀',
+    theme: '活力 + 夜景（週六限定）',
+    spots: [
+      {
+        time: '10:00',
+        name: 'Skyline Luge Busan',
+        desc: '海雲台山頂俯衝滑車，高速下滑欣賞釜山海景，刺激又好玩',
+        maps: 'https://maps.google.com/?q=Skyline+Luge+Busan',
+        detail: {
+          note: '持釜山 Pass（48H）免費入場（原價 ₩30,000）。建議開門即入場，假日排隊時間較長。',
+          options: [
+            {
+              title: '🎫 基本資訊',
+              steps: [
+                '營業時間：每日 10:00–18:00',
+                '含纜椅上山 + 1 次 Luge 下滑',
+                '可加購多次 Luge，費用另計',
+              ],
+              cost: 'Pass 持有者免費（原價 ₩30,000）',
+            },
+          ],
+        },
+      },
+      {
+        time: '12:00',
+        name: '海雲台海岸列車 + 膠囊列車',
+        desc: '沿海岸線行駛的特色觀光列車，飽覽海雲台至松亭間的海岸風光',
+        maps: 'https://maps.google.com/?q=Haeundae+Beach+Train+Busan',
+        detail: {
+          note: '持釜山 Pass（48H）免費搭乘（原價 ₩16,000）。建議提前網路預約，假日人多。',
+          options: [
+            {
+              title: '🚂 基本資訊',
+              steps: [
+                '路線：海雲台 ↔ 松亭，全程約 30 分鐘',
+                '膠囊列車（透明車廂）景觀更佳，建議優先選擇',
+                '海岸列車為一般車廂，票價較低',
+              ],
+              cost: 'Pass 持有者免費（原價 ₩16,000）',
+            },
+          ],
+        },
+      },
+      {
+        time: '14:30',
+        name: '海雲台傳統市場',
+        desc: '在地傳統市場，逛攤、吃小吃，走到底有好吃糖餅',
+        maps: 'https://maps.google.com/?q=Haeundae+Traditional+Market+Busan',
+        detail: {
+          note: '建議 14:00–15:00 後造訪，店家大多已開門，晚上人潮最熱鬧。',
+          options: [
+            {
+              title: '🏪 基本資訊',
+              steps: [
+                '營業時間：每日 09:00–22:00（各攤位略有不同）',
+                '走到底另有糖餅攤（強推）',
+              ],
+            },
+          ],
+        },
+      },
+      {
+        time: '19:00',
+        name: '廣安里海水浴場 & 無人機秀',
+        desc: '週六限定！廣安里 M 無人機燈光秀 20:00 & 22:00，每場約 12 分鐘，搭配廣安大橋夜景超震撼',
+        maps: 'https://maps.google.com/?q=Gwangalli+Beach+Busan',
+        detail: {
+          note: '夏季（3–9月）無人機秀場次：20:00 & 22:00，建議 19:30 前到廣安里佔位。平日冷清，週六人氣最旺。',
+          options: [
+            {
+              title: '☕ 推薦海景咖啡廳（邊等邊看秀）',
               steps: [
                 'CUP&CUP：日系米白木質裝潢，大片窗景，招牌起司蛋糕｜水營區廣安海邊路 177，4–5 樓',
                 '차선책（Chaseonsaek）：低飽和木質調日式禪風，大片玻璃窗眺望廣安大橋｜수영구 광안해변로 237，3 樓，11:00–22:00',
@@ -126,155 +204,43 @@ export const itinerary = [
           ],
         },
       },
-      {
-        time: '19:00',
-        name: '廣安里夜景',
-        desc: '廣安大橋夜間燈光璀璨，沿岸酒吧街熱鬧非凡，是釜山最美夜景之一',
-        maps: 'https://maps.google.com/?q=Gwangalli+Beach+Busan',
-      },
-    ],
-  },
-  {
-    day: 3,
-    date: '2026-09-05',
-    hotel: 'Stanford Inn Busan',
-    title: '海雲台 · 松島纜車',
-    theme: '海岸全制霸',
-    spots: [
-      {
-        time: '09:00',
-        name: '海雲台海水浴場（早晨）',
-        desc: '趁遊客未聚集前漫步沙灘，享受清晨海景',
-        maps: 'https://maps.google.com/?q=Haeundae+Beach+Busan',
-      },
-      {
-        time: '10:30',
-        name: '冬柏島・APEC 夜未眠燈塔',
-        desc: '與海雲台相鄰的小島，步行繞島一圈約 30 分鐘，夕陽與海景必拍',
-        maps: 'https://maps.google.com/?q=Dongbaek+Island+Busan',
-      },
-      {
-        time: '13:00',
-        name: 'Shinsegae Centum City 午餐 & 購物',
-        desc: '金氏世界紀錄最大百貨公司，美食街選擇多元，下午順便逛街免稅',
-        maps: 'https://maps.google.com/?q=Shinsegae+Centum+City+Busan',
-      },
-      {
-        time: '15:30',
-        name: '松島海上纜車',
-        desc: '韓國最長海上纜車（1.62 公里），透明地板纜車車廂俯瞰松島海岸絕景',
-        maps: 'https://maps.google.com/?q=Songdo+Cable+Car+Busan',
-        detail: {
-          note: 'Klook / KKday 線上預購比現場便宜；持 Visit Busan Pass 可免費搭水晶車廂來回（2024/9/10 起）。',
-          options: [
-            {
-              title: '🎫 票價',
-              steps: [
-                '一般車廂：單程 ₩12,000 / 來回 ₩15,000',
-                '水晶（玻璃地板）車廂：單程 ₩16,000 / 來回 ₩20,000',
-                '一日無限搭乘：₩30,000',
-              ],
-              cost: '來回 ₩15,000–20,000',
-            },
-            {
-              title: '📱 預訂方式',
-              steps: [
-                'Klook / KKday 線上購票，持 QR Code 至售票處兌換（比現場便宜）',
-                '持 Visit Busan Pass：可免費搭水晶車廂來回，毋需加價',
-              ],
-            },
-          ],
-        },
-      },
-      {
-        time: '17:30',
-        name: '松島海水浴場',
-        desc: '纜車下方的海灘，夕陽西沉時景色迷人，遊客比海雲台少',
-        maps: 'https://maps.google.com/?q=Songdo+Beach+Busan',
-      },
     ],
   },
   {
     day: 4,
     date: '2026-09-06',
     hotel: 'Stanford Inn Busan',
-    title: '梵魚寺 · 龍頭山 · 西面',
-    theme: '文化放鬆日',
+    title: '釜山樂天世界 · 西面',
+    theme: '主題樂園 + 美食',
     spots: [
       {
-        time: '09:00',
-        name: '梵魚寺',
-        desc: '678年建立的千年古剎，藏於金井山中，秋初的山林清幽宜人',
-        maps: 'https://maps.google.com/?q=Beomeosa+Temple+Busan',
+        time: '10:00',
+        name: '釜山樂天世界',
+        desc: '釜山最大主題樂園，室內外遊樂設施 + 海景摩天輪，建議預留 5–6 小時暢玩',
+        maps: 'https://maps.google.com/?q=Lotte+World+Adventure+Busan',
         detail: {
-          note: '地鐵站步行至梵魚寺約 45 分鐘；有公車可搭，建議不要步行以保留體力登金井山城。',
+          note: '持釜山 Pass（48H）免費入場（原價 ₩47,000）。建議 10:00 開門即進，熱門設施上午排隊較短。',
           options: [
             {
-              title: '🚇 交通方式',
+              title: '🎡 基本資訊',
               steps: [
-                '地鐵 1 號線梵魚寺站（119）7 號出口',
-                '轉乘 90 號公車至梵魚寺（約 10 分鐘）',
-                '或搭 203 號公車可直達東門',
+                '地址：機張郡東部山業路 42（機張站附近，地鐵東海線 機張站）',
+                '營業時間：10:00–21:00',
+                '含室內 / 室外遊樂區、海景摩天輪（Magic Island）',
+                '建議預留 5–6 小時',
               ],
-              time: '地鐵站→梵魚寺 約 15–20 分鐘（公車）',
-            },
-          ],
-        },
-      },
-      {
-        time: '11:30',
-        name: '金井山城',
-        desc: '朝鮮時代山城遺址，健行路線景色壯闊，可俯瞰整座釜山',
-        maps: 'https://maps.google.com/?q=Geumjeongsanseong+Fortress',
-        detail: {
-          note: '⚠️ 體力警示：梵魚寺 + 金井山城健行合計約 3–4 小時，下午行程建議以休閒為主，避免安排需要大量步行的景點。',
-          options: [
-            {
-              title: '🥾 路線選擇',
-              steps: [
-                '東門 → 北門：4 km（輕鬆級，約 1.5–2 小時，推薦）',
-                '全線 Y 型：10 km，總爬升 1,200m（費體力，不建議當天再安排其他行程）',
-                '登頂姑堂峰來回：從東門約 90 分鐘',
-              ],
-              time: '輕鬆版約 1.5–2 小時',
-            },
-          ],
-        },
-      },
-      {
-        time: '14:00',
-        name: '龍頭山公園・釜山塔',
-        desc: '120 公尺高展望台，俯瞰釜山港全景，公園內有庭園與花圃',
-        maps: 'https://maps.google.com/?q=Busan+Tower',
-      },
-      {
-        time: '16:00',
-        name: '東萊溫泉街',
-        desc: '百年溫泉區，泡足浴放鬆雙腳，旁邊傳統市場可買伴手禮',
-        maps: 'https://maps.google.com/?q=Dongnae+Hot+Spring+Busan',
-        detail: {
-          note: '露天足湯完全免費，九月正常開放；注意每週三、五休息。健行後泡腳，最佳恢復選擇。',
-          options: [
-            {
-              title: '🦶 東萊溫泉露天足浴（돈래온천노천족탕）',
-              steps: [
-                '地鐵溫泉場站（127）1 號出口步行約 20 分鐘',
-                '費用：完全免費',
-                '休息日：每週三（三）、五（五）；夏期（7/20–8/20）、冬季（1/1–1/31）不開放',
-                '九月（9/3–9/7）正常開放 ✓',
-              ],
-              cost: '免費',
+              cost: 'Pass 持有者免費（原價 ₩47,000）',
             },
           ],
         },
       },
       {
         time: '19:00',
-        name: '西面商圈晚餐 & 購物',
-        desc: '釜山最繁華夜生活區，豬骨湯飯名店集中，最後一晚盡情血拼',
+        name: '西面商圈晚餐',
+        desc: '釜山最繁華夜生活區，豬骨湯飯名店集中，樂園後完美收尾',
         maps: 'https://maps.google.com/?q=Seomyeon+Busan',
         detail: {
-          note: '以下豬骨湯飯名店均位於西面站 1–2 號出口步行距離內，24 小時營業，登山後完美收尾。',
+          note: '以下豬骨湯飯名店均位於西面站 1–2 號出口步行距離內，24 小時營業。',
           options: [
             {
               title: '🍲 推薦豬骨湯飯店家',
