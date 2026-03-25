@@ -76,6 +76,27 @@
 
 ---
 
+## Session 6（排程任務）— 2026-03-26
+
+### 完成事項
+- [x] 恢復上下文（task_plan / findings / progress）
+- [x] 網路研究（階段 6）：南浦洞、富平罐頭市場、釜山塔、松島龍宮雲橋、Skyline Luge、海岸列車 vs 膠囊列車、廣安里無人機秀
+- [x] 重要發現：**天空膠囊列車不含在 Visit Busan Pass 內**（與原 itinerary 標示不符），需提前 1–2 週預約
+- [x] findings.md：新增「v2 行程補充研究」章節（6 個景點詳細資訊）
+- [x] itinerary.js Day 1：南浦洞晚餐補充 detail（夜市時間、必吃清單）
+- [x] itinerary.js Day 1：釜山塔補充 detail（開放時間 10:00–22:00）
+- [x] itinerary.js Day 3：Skyline Luge 更新（週末 20:00 關，Pass 含 2 次）
+- [x] itinerary.js Day 3：海岸列車/膠囊列車更新（拆分為兩個選項，加入膠囊列車預約警示）
+- [x] task_plan.md：階段 6、7 標記 complete
+
+### 關鍵發現
+1. **⚠️ 膠囊列車不含 Pass**：Visit Busan Pass 只含海岸列車（免費），天空膠囊列車需另購（約 ₩30,000）且需提前 1–2 週預約
+2. Skyline Luge 週末（Day 3 是週六）可玩到 20:00，比原本認知的 18:00 更晚
+3. 씨앗호떡（糖餅）攤位在 BIFF 廣場，不在富平市場內部
+4. 廣安里無人機秀 2026 全年每週六，夏季場次 20:00 & 22:00 確認無誤
+
+---
+
 ## Session 5 — 2026-03-26
 
 ### 完成事項
