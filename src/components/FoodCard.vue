@@ -9,6 +9,13 @@
     </div>
     <div class="text-sm text-gray-500 flex items-center gap-1">
       📍 {{ food.area }}
+      <a
+        :href="`https://map.naver.com/p/search/${encodeURIComponent(food.nameKo + ' ' + food.areaKo)}`"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="ml-1 text-busan-blue hover:text-busan-coral transition-colors"
+        title="在 Naver 地圖查詢"
+      >🗺️</a>
     </div>
     <div class="text-sm text-gray-600">
       <span class="font-medium text-busan-blue">推薦：</span>{{ food.recommend }}

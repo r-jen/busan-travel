@@ -161,5 +161,7 @@
   - food.js 新增 `areas` export（8 個地區選項，substring 匹配）
   - 修正 id:10 area `'BIFF廣場'` → `'BIFF廣場・南浦洞'`（使南浦洞過濾能正確涵蓋）
   - FoodView.vue 地區篩選列（藍色）放在分類篩選列（珊瑚色）上方，兩條件 AND 複合過濾
+- [x] food.js 全部 20 筆資料新增 `areaKo` 欄位（中文地區對應韓文，供 Naver Maps 查詢用）
+- [x] FoodCard.vue 地址列旁加入 🗺️ 連結，點擊開啟 `https://map.naver.com/p/search/{nameKo} {areaKo}`
 
 ---
