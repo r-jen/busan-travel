@@ -94,7 +94,7 @@ export const foods = [
     category: '街頭小吃',
     name: '元祖黑糖餅',
     nameKo: '씨앗호떡',
-    area: 'BIFF廣場',
+    area: 'BIFF廣場・南浦洞',
     recommend: '黑糖籽煎餅',
     desc: 'BIFF廣場必吃的釜山代表性街頭小吃，餅皮酥脆內餡是黑糖混合葵花籽，香甜不膩，排隊人潮絡繹不絕',
     price: '₩1,500–2,000／個',
@@ -202,3 +202,5 @@ export const foods = [
 ]
 
 export const categories = ['全部', '海鮮', '燒肉', '街頭小吃', '早餐', '咖啡店', '甜點']
+
+export const areas = ['全部', '南浦洞', '富平罐頭市場', '西面', '海雲台', '水營區', '機張郡', '全市均有']

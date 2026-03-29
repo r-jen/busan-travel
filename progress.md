@@ -157,5 +157,9 @@
   - id 19：張佑孫釜山魚糕（장우손부산어묵）— 三星會長造訪老店，VIP烏龍麵
   - id 20：罐頭市場酥炸豬排（깡돼후）— 人氣沾醬炸豬排
 - 資料來源：https://damei17.com/bupyongkkangtongsijang/
+- [x] food.js + FoodView.vue：實作複合式過濾條件（地區 × 分類）
+  - food.js 新增 `areas` export（8 個地區選項，substring 匹配）
+  - 修正 id:10 area `'BIFF廣場'` → `'BIFF廣場・南浦洞'`（使南浦洞過濾能正確涵蓋）
+  - FoodView.vue 地區篩選列（藍色）放在分類篩選列（珊瑚色）上方，兩條件 AND 複合過濾
 
 ---
